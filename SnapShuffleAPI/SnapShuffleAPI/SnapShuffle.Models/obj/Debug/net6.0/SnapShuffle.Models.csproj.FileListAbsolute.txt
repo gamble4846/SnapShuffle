@@ -1,0 +1,12 @@
+C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.Models\bin\Debug\net6.0\SnapShuffle.Models.deps.json
+C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.Models\bin\Debug\net6.0\SnapShuffle.Models.dll
+C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.Models\bin\Debug\net6.0\SnapShuffle.Models.pdb
+C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.Models\obj\Debug\net6.0\SnapShuffle.Models.csproj.AssemblyReference.cache
+C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.Models\obj\Debug\net6.0\SnapShuffle.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.Models\obj\Debug\net6.0\SnapShuffle.Models.AssemblyInfoInputs.cache
+C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.Models\obj\Debug\net6.0\SnapShuffle.Models.AssemblyInfo.cs
+C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.Models\obj\Debug\net6.0\SnapShuffle.Models.csproj.CoreCompileInputs.cache
+C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.Models\obj\Debug\net6.0\SnapShuffle.Models.dll
+C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.Models\obj\Debug\net6.0\refint\SnapShuffle.Models.dll
+C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.Models\obj\Debug\net6.0\SnapShuffle.Models.pdb
+C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.Models\obj\Debug\net6.0\ref\SnapShuffle.Models.dll
