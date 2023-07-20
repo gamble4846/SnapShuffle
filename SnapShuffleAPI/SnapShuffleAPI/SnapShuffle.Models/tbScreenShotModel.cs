@@ -11,7 +11,8 @@ namespace SnapShuffle.Models
     public class tbScreenShotModel
     {
         public Guid ScreenshotGUID { get; set; } = Guid.NewGuid();
-        public String PrintScreenId { get; set; }
+        public String OldImageLink { get; set; }
         public String NewImgurLink { get; set; }
+        public String AppName { get; set; }
     }
 }

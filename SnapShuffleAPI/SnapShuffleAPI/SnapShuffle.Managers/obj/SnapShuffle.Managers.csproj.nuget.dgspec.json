@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Managers\\SnapShuffle.Managers.csproj": {}
+    "C:\\Data\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Managers\\SnapShuffle.Managers.csproj": {}
   },
   "projects": {
-    "D:\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.DataAccess\\SnapShuffle.DataAccess.csproj": {
+    "C:\\Data\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.DataAccess\\SnapShuffle.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.DataAccess\\SnapShuffle.DataAccess.csproj",
+        "projectUniqueName": "C:\\Data\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.DataAccess\\SnapShuffle.DataAccess.csproj",
         "projectName": "SnapShuffle.DataAccess",
-        "projectPath": "D:\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.DataAccess\\SnapShuffle.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\chint\\.nuget\\packages\\",
-        "outputPath": "D:\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.DataAccess\\obj\\",
+        "projectPath": "C:\\Data\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.DataAccess\\SnapShuffle.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Rohan\\.nuget\\packages\\",
+        "outputPath": "C:\\Data\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\chint\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Rohan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +32,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Models\\SnapShuffle.Models.csproj": {
-                "projectPath": "D:\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Models\\SnapShuffle.Models.csproj"
+              "C:\\Data\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Models\\SnapShuffle.Models.csproj": {
+                "projectPath": "C:\\Data\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Models\\SnapShuffle.Models.csproj"
               },
-              "D:\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Utility\\SnapShuffle.Utility.csproj": {
-                "projectPath": "D:\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Utility\\SnapShuffle.Utility.csproj"
+              "C:\\Data\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Utility\\SnapShuffle.Utility.csproj": {
+                "projectPath": "C:\\Data\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Utility\\SnapShuffle.Utility.csproj"
               }
             }
           }
@@ -47,6 +51,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "CypherImage": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
             "EasyCrudLibrary": {
               "target": "Package",
               "version": "[1.0.8, )"
@@ -96,21 +104,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Managers\\SnapShuffle.Managers.csproj": {
+    "C:\\Data\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Managers\\SnapShuffle.Managers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Managers\\SnapShuffle.Managers.csproj",
+        "projectUniqueName": "C:\\Data\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Managers\\SnapShuffle.Managers.csproj",
         "projectName": "SnapShuffle.Managers",
-        "projectPath": "D:\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Managers\\SnapShuffle.Managers.csproj",
-        "packagesPath": "C:\\Users\\chint\\.nuget\\packages\\",
-        "outputPath": "D:\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Managers\\obj\\",
+        "projectPath": "C:\\Data\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Managers\\SnapShuffle.Managers.csproj",
+        "packagesPath": "C:\\Users\\Rohan\\.nuget\\packages\\",
+        "outputPath": "C:\\Data\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Managers\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\chint\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Rohan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -124,14 +136,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.DataAccess\\SnapShuffle.DataAccess.csproj": {
-                "projectPath": "D:\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.DataAccess\\SnapShuffle.DataAccess.csproj"
+              "C:\\Data\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.DataAccess\\SnapShuffle.DataAccess.csproj": {
+                "projectPath": "C:\\Data\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.DataAccess\\SnapShuffle.DataAccess.csproj"
               },
-              "D:\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Models\\SnapShuffle.Models.csproj": {
-                "projectPath": "D:\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Models\\SnapShuffle.Models.csproj"
+              "C:\\Data\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Models\\SnapShuffle.Models.csproj": {
+                "projectPath": "C:\\Data\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Models\\SnapShuffle.Models.csproj"
               },
-              "D:\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Utility\\SnapShuffle.Utility.csproj": {
-                "projectPath": "D:\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Utility\\SnapShuffle.Utility.csproj"
+              "C:\\Data\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Utility\\SnapShuffle.Utility.csproj": {
+                "projectPath": "C:\\Data\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Utility\\SnapShuffle.Utility.csproj"
               }
             }
           }
@@ -146,6 +158,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "CypherImage": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
             "EasyCrudLibrary": {
               "target": "Package",
               "version": "[1.0.8, )"
@@ -195,21 +211,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Models\\SnapShuffle.Models.csproj": {
+    "C:\\Data\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Models\\SnapShuffle.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Models\\SnapShuffle.Models.csproj",
+        "projectUniqueName": "C:\\Data\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Models\\SnapShuffle.Models.csproj",
         "projectName": "SnapShuffle.Models",
-        "projectPath": "D:\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Models\\SnapShuffle.Models.csproj",
-        "packagesPath": "C:\\Users\\chint\\.nuget\\packages\\",
-        "outputPath": "D:\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Models\\obj\\",
+        "projectPath": "C:\\Data\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Models\\SnapShuffle.Models.csproj",
+        "packagesPath": "C:\\Users\\Rohan\\.nuget\\packages\\",
+        "outputPath": "C:\\Data\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Models\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\chint\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Rohan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -235,6 +255,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "CypherImage": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
             "EasyCrudLibrary": {
               "target": "Package",
               "version": "[1.0.8, )"
@@ -284,21 +308,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Utility\\SnapShuffle.Utility.csproj": {
+    "C:\\Data\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Utility\\SnapShuffle.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Utility\\SnapShuffle.Utility.csproj",
+        "projectUniqueName": "C:\\Data\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Utility\\SnapShuffle.Utility.csproj",
         "projectName": "SnapShuffle.Utility",
-        "projectPath": "D:\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Utility\\SnapShuffle.Utility.csproj",
-        "packagesPath": "C:\\Users\\chint\\.nuget\\packages\\",
-        "outputPath": "D:\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Utility\\obj\\",
+        "projectPath": "C:\\Data\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Utility\\SnapShuffle.Utility.csproj",
+        "packagesPath": "C:\\Users\\Rohan\\.nuget\\packages\\",
+        "outputPath": "C:\\Data\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Utility\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\chint\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Rohan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -312,8 +340,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Models\\SnapShuffle.Models.csproj": {
-                "projectPath": "D:\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Models\\SnapShuffle.Models.csproj"
+              "C:\\Data\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Models\\SnapShuffle.Models.csproj": {
+                "projectPath": "C:\\Data\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Models\\SnapShuffle.Models.csproj"
               }
             }
           }
@@ -328,6 +356,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "CypherImage": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
             "EasyCrudLibrary": {
               "target": "Package",
               "version": "[1.0.8, )"
@@ -381,7 +413,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

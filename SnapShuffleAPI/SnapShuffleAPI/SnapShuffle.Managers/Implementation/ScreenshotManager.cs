@@ -14,6 +14,7 @@ using System;
 using System.Drawing;
 using System.IO;
 using Newtonsoft.Json;
+using CypherImage;
 
 namespace SnapShuffle.Managers.Implementation
 {
@@ -51,9 +52,7 @@ namespace SnapShuffle.Managers.Implementation
                     imageBytes = _CommonFunctions.ConvertUrlToByteArray(src);
                 }
 
-                var EncryptedImage = _CommonFunctions.MovePixelsImage(imageBytes, 5, true);
-                //var DecryptedImage = _CommonFunctions.MovePixelsImage(EncryptedImage, 5, false);
-
+                var EncryptedImage = CypherImageLibrary.Encrypt(imageBytes, "rohan");
                 var ImgurResponse = await _CommonFunctions.UploadImageToImgur(EncryptedImage);
 
                 if (ImgurResponse == null)
@@ -64,8 +63,9 @@ namespace SnapShuffle.Managers.Implementation
                 var ToAddModel = new tbScreenShotModel()
                 {
                     ScreenshotGUID = Guid.NewGuid(),
-                    PrintScreenId = CurrentId,
-                    NewImgurLink = ImgurResponse.data.link
+                    OldImageLink = CurrentId,
+                    NewImgurLink = ImgurResponse.data.link,
+                    AppName = "PrntSC"
                 };
 
                 var NewGUID = _TbScreenShotDataAccess.Add(ToAddModel);
@@ -79,7 +79,7 @@ namespace SnapShuffle.Managers.Implementation
             }
 
             var EncryptedImageImgur = _CommonFunctions.ConvertUrlToByteArray(TbScreenShotData.NewImgurLink);
-            var DecryptedImageImgur = _CommonFunctions.MovePixelsImage(EncryptedImageImgur, 5, false);
+            var DecryptedImageImgur = CypherImageLibrary.Decrypt(EncryptedImageImgur, "rohan");
 
             var FinalResponse = new { TbScreenShotData = TbScreenShotData, ImageBytes = DecryptedImageImgur, IsNew = IsNew };
 

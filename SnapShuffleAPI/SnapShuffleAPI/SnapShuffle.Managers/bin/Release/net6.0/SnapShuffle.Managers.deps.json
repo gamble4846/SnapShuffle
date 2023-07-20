@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "SnapShuffle.Managers/1.0.0": {
         "dependencies": {
+          "CypherImage": "1.0.2",
           "EasyCrudLibrary": "1.0.8",
           "HtmlAgilityPack": "1.11.50",
           "Microsoft.AspNetCore.Http.Abstractions": "2.1.1",
@@ -22,6 +23,17 @@
         },
         "runtime": {
           "SnapShuffle.Managers.dll": {}
+        }
+      },
+      "CypherImage/1.0.2": {
+        "dependencies": {
+          "System.Drawing.Common": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/CypherImage.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
         }
       },
       "EasyCrudLibrary/1.0.8": {
@@ -330,6 +342,7 @@
       "System.Text.Json/4.7.2": {},
       "SnapShuffle.DataAccess/1.0.0": {
         "dependencies": {
+          "CypherImage": "1.0.2",
           "EasyCrudLibrary": "1.0.8",
           "HtmlAgilityPack": "1.11.50",
           "Microsoft.AspNetCore.Http.Abstractions": "2.1.1",
@@ -347,6 +360,7 @@
       },
       "SnapShuffle.Models/1.0.0": {
         "dependencies": {
+          "CypherImage": "1.0.2",
           "EasyCrudLibrary": "1.0.8",
           "HtmlAgilityPack": "1.11.50",
           "Microsoft.AspNetCore.Http.Abstractions": "2.1.1",
@@ -362,6 +376,7 @@
       },
       "SnapShuffle.Utility/1.0.0": {
         "dependencies": {
+          "CypherImage": "1.0.2",
           "EasyCrudLibrary": "1.0.8",
           "HtmlAgilityPack": "1.11.50",
           "Microsoft.AspNetCore.Http.Abstractions": "2.1.1",
@@ -384,6 +399,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "CypherImage/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-M5ruXHJjSvzip6nxA2qF149E5kNygELjt4iJ/h1CehsXWBs7k4SI+ZPsyc58LLBkR0c3fGq51EIcu5ASNyNzzg==",
+      "path": "cypherimage/1.0.2",
+      "hashPath": "cypherimage.1.0.2.nupkg.sha512"
     },
     "EasyCrudLibrary/1.0.8": {
       "type": "package",

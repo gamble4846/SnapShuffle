@@ -4,8 +4,8 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
 <Project>
   <PropertyGroup>
-    <_PublishTargetUrl>D:\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffleAPI\bin\Release\net6.0\publish\</_PublishTargetUrl>
-    <History>True|2023-07-20T10:15:01.3296869Z;True|2023-07-20T12:23:04.1506918+05:30;True|2023-07-19T23:16:13.3815475+05:30;</History>
+    <_PublishTargetUrl>C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffleAPI\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2023-07-20T16:38:13.0865050Z;True|2023-07-20T15:45:01.3296869+05:30;True|2023-07-20T12:23:04.1506918+05:30;True|2023-07-19T23:16:13.3815475+05:30;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>
