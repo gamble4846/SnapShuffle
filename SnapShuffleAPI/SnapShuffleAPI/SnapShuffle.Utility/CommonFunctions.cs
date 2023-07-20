@@ -1,11 +1,15 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using HtmlAgilityPack;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
+using SnapShuffle.Models;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
+using System.Net;
+using System.Net.Http.Headers;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
@@ -120,6 +124,90 @@ ep8Q6x1/uOOruaKJLTEbiGP9mQHuOFgQmmzJsrHmmol150T8ClUewRGXTzJq+xq/
             var tokenString = new JwtSecurityTokenHandler().WriteToken(tokeOptions);
 
             return tokenString;
+        }
+
+        public string GetRandomPrintScreenId()
+        {
+            string[] characters = { "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0" };
+            Random random = new Random();
+            string Id = characters[random.Next(0, characters.Length)] + characters[random.Next(0, characters.Length)] + characters[random.Next(0, characters.Length)] + characters[random.Next(0, characters.Length)] + characters[random.Next(0, characters.Length)] + characters[random.Next(0, characters.Length)];
+            return Id;
+        }
+
+        public string GetSrcOfTagFromHTMLById(string htmlString, string id)
+        {
+            try
+            {
+                HtmlDocument doc = new HtmlDocument();
+                doc.LoadHtml(htmlString);
+                HtmlNode element = doc.GetElementbyId(id);
+                if (element != null)
+                {
+                    var currentSRC = element.GetAttributeValue("src", "");
+                    if (String.IsNullOrEmpty(currentSRC))
+                    {
+                        return null;
+                    }
+                    else
+                    {
+                        return currentSRC;
+                    }
+                }
+
+                return null;
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
+
+        public byte[] ConvertUrlToByteArray(string url)
+        {
+            using (WebClient webClient = new WebClient())
+            {
+                try
+                {
+                    byte[] imageBytes = webClient.DownloadData(url);
+                    return imageBytes;
+                }
+                catch (Exception ex)
+                {
+                    return null;
+                }
+            }
+        }
+
+        public byte[] EncryptImageBytes(byte[] imageBytes)
+        {
+            Random random = new Random();
+            for (int i = 0; i < imageBytes.Length - 2; i += 3)
+            {
+                imageBytes[i] = (byte)random.Next(256); // Red
+                imageBytes[i + 1] = (byte)random.Next(256); // Green
+                imageBytes[i + 2] = (byte)random.Next(256); // Blue
+            }
+            return imageBytes;
+        }
+
+        public async Task<ImgurResponseModel> UploadImageToImgur(byte[] bytes)
+        {
+            var httpclient = new HttpClient();
+            httpclient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Client-ID", "263bbc738ab2de2");
+            httpclient.DefaultRequestHeaders.TryAddWithoutValidation("Content-Type", "text/plain");
+            string temp_inBase64 = Convert.ToBase64String(bytes);
+            var response = await httpclient.PostAsync("https://api.imgur.com/3/Image", new StringContent(temp_inBase64));
+            var stringcontent = await response.Content.ReadAsStringAsync();
+            var ImgurResponseModel = JsonConvert.DeserializeObject<ImgurResponseModel>(stringcontent);
+
+            if (ImgurResponseModel.success)
+            {
+                return ImgurResponseModel;
+            }
+            else
+            {
+                return null;
+            }
         }
     }
 }

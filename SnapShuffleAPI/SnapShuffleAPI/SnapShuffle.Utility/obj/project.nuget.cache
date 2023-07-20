@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "TQm/tBk4RtTE5cQe8meeDnKAFOyGnb59z58ly5AdRaCR8y3EmMHcBgSLwNV4UVc+TVn2BXiRJvTtozmYQkbjtg==",
+  "dgSpecHash": "Opq7zCaPTHT7+K7/v4UPZUUQAc4e1SsiLR8TRa8w0SPbcVD4tOmm5Y/mk7xKyGu7IIcR0dt/O7a8/aeEwrkrIg==",
   "success": true,
   "projectFilePath": "C:\\Data\\Git Projects\\Rohan's Projects\\SnapShuffle\\SnapShuffleAPI\\SnapShuffleAPI\\SnapShuffle.Utility\\SnapShuffle.Utility.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rohan\\.nuget\\packages\\easycrudlibrary\\1.0.8\\easycrudlibrary.1.0.8.nupkg.sha512",
     "C:\\Users\\Rohan\\.nuget\\packages\\fastmember\\1.5.0\\fastmember.1.5.0.nupkg.sha512",
+    "C:\\Users\\Rohan\\.nuget\\packages\\htmlagilitypack\\1.11.50\\htmlagilitypack.1.11.50.nupkg.sha512",
     "C:\\Users\\Rohan\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.1.1\\microsoft.aspnetcore.http.abstractions.2.1.1.nupkg.sha512",
     "C:\\Users\\Rohan\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.1.1\\microsoft.aspnetcore.http.features.2.1.1.nupkg.sha512",
     "C:\\Users\\Rohan\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

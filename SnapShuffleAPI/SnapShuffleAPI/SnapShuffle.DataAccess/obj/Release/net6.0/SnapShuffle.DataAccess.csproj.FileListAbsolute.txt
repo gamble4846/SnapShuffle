@@ -1,0 +1,17 @@
+C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.DataAccess\bin\Release\net6.0\SnapShuffle.DataAccess.deps.json
+C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.DataAccess\bin\Release\net6.0\SnapShuffle.DataAccess.dll
+C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.DataAccess\bin\Release\net6.0\SnapShuffle.DataAccess.pdb
+C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.DataAccess\bin\Release\net6.0\SnapShuffle.Models.dll
+C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.DataAccess\bin\Release\net6.0\SnapShuffle.Utility.dll
+C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.DataAccess\bin\Release\net6.0\SnapShuffle.Models.pdb
+C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.DataAccess\bin\Release\net6.0\SnapShuffle.Utility.pdb
+C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.DataAccess\obj\Release\net6.0\SnapShuffle.DataAccess.csproj.AssemblyReference.cache
+C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.DataAccess\obj\Release\net6.0\SnapShuffle.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.DataAccess\obj\Release\net6.0\SnapShuffle.DataAccess.AssemblyInfoInputs.cache
+C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.DataAccess\obj\Release\net6.0\SnapShuffle.DataAccess.AssemblyInfo.cs
+C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.DataAccess\obj\Release\net6.0\SnapShuffle.DataAccess.csproj.CoreCompileInputs.cache
+C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.DataAccess\obj\Release\net6.0\SnapShuffle.DataAccess.csproj.CopyComplete
+C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.DataAccess\obj\Release\net6.0\SnapShuffle.DataAccess.dll
+C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.DataAccess\obj\Release\net6.0\refint\SnapShuffle.DataAccess.dll
+C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.DataAccess\obj\Release\net6.0\SnapShuffle.DataAccess.pdb
+C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.DataAccess\obj\Release\net6.0\ref\SnapShuffle.DataAccess.dll

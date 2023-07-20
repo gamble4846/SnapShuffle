@@ -17,6 +17,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddTransient<ITbUserManager, TbUserManager>();
 builder.Services.AddTransient<ITbUserDataAccess, TbUserDataAccess>();
+builder.Services.AddTransient<IScreenshotManager, ScreenshotManager>();
 #endregion
 
 var app = builder.Build();

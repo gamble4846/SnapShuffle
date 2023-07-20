@@ -54,3 +54,4 @@ C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\
 C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffleAPI\bin\Debug\net6.0\SnapShuffle.Models.pdb
 C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffleAPI\bin\Debug\net6.0\SnapShuffle.Utility.pdb
 C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffleAPI\bin\Debug\net6.0\SnapShuffle.DataAccess.pdb
+C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffleAPI\bin\Debug\net6.0\HtmlAgilityPack.dll
