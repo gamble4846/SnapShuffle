@@ -10,3 +10,15 @@ C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\
 C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.Models\obj\Release\net6.0\refint\SnapShuffle.Models.dll
 C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.Models\obj\Release\net6.0\SnapShuffle.Models.pdb
 C:\Data\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.Models\obj\Release\net6.0\ref\SnapShuffle.Models.dll
+D:\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.Models\bin\Release\net6.0\SnapShuffle.Models.deps.json
+D:\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.Models\bin\Release\net6.0\SnapShuffle.Models.dll
+D:\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.Models\bin\Release\net6.0\SnapShuffle.Models.pdb
+D:\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.Models\obj\Release\net6.0\SnapShuffle.Models.csproj.AssemblyReference.cache
+D:\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.Models\obj\Release\net6.0\SnapShuffle.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.Models\obj\Release\net6.0\SnapShuffle.Models.AssemblyInfoInputs.cache
+D:\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.Models\obj\Release\net6.0\SnapShuffle.Models.AssemblyInfo.cs
+D:\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.Models\obj\Release\net6.0\SnapShuffle.Models.csproj.CoreCompileInputs.cache
+D:\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.Models\obj\Release\net6.0\SnapShuffle.Models.dll
+D:\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.Models\obj\Release\net6.0\refint\SnapShuffle.Models.dll
+D:\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.Models\obj\Release\net6.0\SnapShuffle.Models.pdb
+D:\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffle.Models\obj\Release\net6.0\ref\SnapShuffle.Models.dll

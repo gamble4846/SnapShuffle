@@ -33,6 +33,7 @@ namespace SnapShuffle.Managers.Implementation
             var CurrentId = _CommonFunctions.GetRandomPrintScreenId();
 
             var TbScreenShotData = _TbScreenShotDataAccess.GetByPrintScreenId(CurrentId);
+            //tbScreenShotModel TbScreenShotData = null;
             bool IsNew = false;
 
             if(TbScreenShotData == null)
@@ -50,7 +51,10 @@ namespace SnapShuffle.Managers.Implementation
                     imageBytes = _CommonFunctions.ConvertUrlToByteArray(src);
                 }
 
-                var ImgurResponse = await _CommonFunctions.UploadImageToImgur(imageBytes);
+                var EncryptedImage = _CommonFunctions.MovePixelsImage(imageBytes, 5, true);
+                //var DecryptedImage = _CommonFunctions.MovePixelsImage(EncryptedImage, 5, false);
+
+                var ImgurResponse = await _CommonFunctions.UploadImageToImgur(EncryptedImage);
 
                 if (ImgurResponse == null)
                 {
@@ -69,18 +73,17 @@ namespace SnapShuffle.Managers.Implementation
 
                 if (TbScreenShotData == null)
                 {
-                    return new APIResponse(ResponseCode.ERROR, "Some Error Occured", NewGUID, false);
+                    return new APIResponse(ResponseCode.ERROR, "Some Error Occured", NewGUID, false); 
                 }
                 IsNew = true;
             }
 
+            var EncryptedImageImgur = _CommonFunctions.ConvertUrlToByteArray(TbScreenShotData.NewImgurLink);
+            var DecryptedImageImgur = _CommonFunctions.MovePixelsImage(EncryptedImageImgur, 5, false);
 
+            var FinalResponse = new { TbScreenShotData = TbScreenShotData, ImageBytes = DecryptedImageImgur, IsNew = IsNew };
 
-            dynamic FinalResponse = new System.Dynamic.ExpandoObject();
-            FinalResponse.TbScreenShotData = TbScreenShotData;
-            FinalResponse.IsNew = IsNew;
-
-            return new APIResponse(ResponseCode.SUCCESS, JsonConvert.SerializeObject(FinalResponse), false); ;
+            return new APIResponse(ResponseCode.SUCCESS, "Success", FinalResponse, false); ;
         }
     }
 }

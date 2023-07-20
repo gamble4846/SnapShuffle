@@ -112,3 +112,7 @@ D:\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapS
 D:\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffleAPI\obj\Debug\net6.0\SnapShuffleAPI.pdb
 D:\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffleAPI\obj\Debug\net6.0\SnapShuffleAPI.genruntimeconfig.cache
 D:\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffleAPI\obj\Debug\net6.0\ref\SnapShuffleAPI.dll
+D:\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffleAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffleAPI\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffleAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Git Projects\Rohan's Projects\SnapShuffle\SnapShuffleAPI\SnapShuffleAPI\SnapShuffleAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
