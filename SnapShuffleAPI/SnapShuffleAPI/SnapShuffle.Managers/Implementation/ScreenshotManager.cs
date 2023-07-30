@@ -33,7 +33,7 @@ namespace SnapShuffle.Managers.Implementation
         {
             var CurrentId = _CommonFunctions.GetRandomPrintScreenId();
 
-            var TbScreenShotData = _TbScreenShotDataAccess.GetByPrintScreenId(CurrentId);
+            var TbScreenShotData = _TbScreenShotDataAccess.GetByPrintScreenId("https://prnt.sc/" + CurrentId);
             //tbScreenShotModel TbScreenShotData = null;
             bool IsNew = false;
 
@@ -63,13 +63,13 @@ namespace SnapShuffle.Managers.Implementation
                 var ToAddModel = new tbScreenShotModel()
                 {
                     ScreenshotGUID = Guid.NewGuid(),
-                    OldImageLink = CurrentId,
+                    OldImageLink = "https://prnt.sc/" + CurrentId,
                     NewImgurLink = ImgurResponse.data.link,
                     AppName = "PrntSC"
                 };
 
                 var NewGUID = _TbScreenShotDataAccess.Add(ToAddModel);
-                TbScreenShotData = _TbScreenShotDataAccess.GetByPrintScreenId(CurrentId);
+                TbScreenShotData = _TbScreenShotDataAccess.GetByPrintScreenId("https://prnt.sc/" + CurrentId);
 
                 if (TbScreenShotData == null)
                 {

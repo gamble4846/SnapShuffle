@@ -28,7 +28,7 @@ namespace SnapShuffle.DataAccess.Implementation
             var _EC = new EasyCrud(ConnectionString);
             List<SqlParameter> Parameters = new List<SqlParameter>();
             Parameters.Add(new SqlParameter("@PrintScreenId", PrintScreenId));
-            var WhereCondition = " WHERE PrintScreenId = @PrintScreenId ";
+            var WhereCondition = " WHERE OldImageLink = @PrintScreenId ";
             return _EC.GetFirstOrDefault<tbScreenShotModel>(WhereCondition, Parameters, GSEnums.WithInQuery.NoLock);
         }
 
